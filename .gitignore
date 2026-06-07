@@ -1,0 +1,47 @@
+# Personal data - Never commit these
+receipts/
+output/
+
+# Enviroment adn config secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Testing 
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Jupyter (in case you ever experiment with notebooks)
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Ollama local models (too large for git)¨
+*.bin
+*.gguf
