@@ -1,6 +1,9 @@
 # Personal data - Never commit these
-receipts/
-output/
+receipts/*
+!receipts/.gitkeep
+
+output/*
+!output/.gitkeep
 
 # Enviroment adn config secrets
 .env
