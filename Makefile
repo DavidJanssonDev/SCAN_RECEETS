@@ -1,0 +1,2 @@
+run:
+	textual run main.py --dev
